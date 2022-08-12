@@ -1,77 +1,234 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flex_responsive</title>
-
-        <!--AOS-->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        
-        <!--Bootstrap Icons-->
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="icon" href="img/thumbs/github.svg" type="image/x-icon">
+
+        <title>Agus Wiardita | Portfolio</title>
+    </head>
+
+    <body class="body" id="home">
     
-        <!--Open Link In New Tab-->
-        <!--base target='_blank' />
-
-        <!--Local CSS-->
-        <link rel="stylesheet" href="../web_flex/style.css">
-
-</head>
-<body>
-    <div class="header"> <!-- Header Website -->
-        <h1 data-aos="fade-down" data-aos-duration="1500">Pemrograman Web</h1>
-        <p data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">Pendidikan Teknik Informatika | Universitas Pendidikan Ganesha</p>
-        <hr data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" color="#0D81EC">
-    </div>
-    <div class="parent"> <!--Parent sebagai pembungkus content dari card yang berisi anggota kelompok -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-info">
+            <div class="container">
+                <a class="navbar-brand text-white">Agus Wiardita</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#about">About</a>
+                        <a class="nav-item nav-link" href="#experience">My Project</a>
+                        <a class="nav-item nav-link" href="#galeri">Gallery</a>
+                        <a class="nav-item nav-link" href="#contact">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         
-        <div class="child" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400"> <!--Card 1 -->
-        <center>
-        <img src="../web_flex/img/profile.jpeg">
-            <h4>Deva Kerti Wijaya</h4>
-            <h4>
-                <a href="https://www.instagram.com/devakertiwijaya/"><i class="bi bi-instagram"></i></a>
-                <a href="https://web.facebook.com/deva.kertiwijaya.9/"><i class="bi bi-facebook"></i></a>
-                <a href="https://wa.wizard.id/6cbd12"><i class="bi bi-whatsapp"></i></a>
-            </h4>
-            <button class="btn"><a href="../web_flex/devakertiwijaya.html">Detail</a></button>
-        </center>
+        <section id="home" class="home">
+            <div class="container pt-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-5 text-justify" data-aos="fade-left" data-aos-duration="1500">
+                        <img data-aos="zoom-in" data-aos-duration="1000" src="img/agusta.png" width="75%" class="rounded-circle img-thumbnail">
+                    </div>
+                    <div class="col-md-5" data-aos="fade-right" data-aos-duration="1500">
+                        <h1 class="display-4 text-info">Hello, I'm Agus Wiardita</h1>
+                    <p class="lead text-info" data-aos="fade-up" data-aos-duration="1500">Freelancer Fotografi & Vidiografi | Desain Grafis</p>
+                    <p>Halo saya, I Gede Agus Wiardita saya adalah seorang freelancer Fotografi, Vidiografi dan Desain Grafis. </p>
+                    <a href="#about" class="btn btn-info">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+   
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col text-center" data-aos="fade-down" data-aos-duration="1000">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="text col-md-5" data-aos="fade-right" data-aos-duration="1500">
+                    <p>Halo saya, I Gede Agus Wiardita saya adalah seorang freelancer Fotografi, Vidiografi dan Desain Grafis. Saya telah mengerjakan benerapa project seperti dokumentasi acara, vidio maupun foto profil perusahaan. </p>
+                    <p>Saya merupakan mahasiswa Pendidikan Teknik Informatika di Universitas Pendidikan Ganesha di Singaraja.</p>
+                </div>
+                <div class="col-md-5 text-justify" data-aos="fade-left" data-aos-duration="1500">
+                    <img data-aos="zoom-in" data-aos-duration="1000" src="img/agusta.png" width="50%" class="rounded-circle img-thumbnail">
+                </div>
+            </div>
         </div>
-        
-        <div class="child" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600"> <!--Card 2-->
-            <center>
-                <img src="../web_flex/img/putri.jpg">
-                <h4>Putri Widiadnyani</h4>
-                <h4>
-                    <a href="https://www.instagram.com/pu3w_16/"><i class="bi bi-instagram"></i></a>
-                    <a href="https://web.facebook.com/putri.widiadnyani.98"><i class="bi bi-facebook"></i></a>
-                    <a href="https://wa.wizard.id/2e103e"><i class="bi bi-whatsapp"></i></a>
-                </h4>
-                <button class="btn"><a href="../web_flex/putri.html">Detail</a></button>
-            </center>
-        </div>
-        <div class="child" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="800"> <!--Card 3 -->
-            <center>
-                <img src="../web_flex/img/selvina.jpeg">
-                <h4>Selvina Rinesti</h4>
-                <h4>
-                    <a href="https://www.instagram.com/invites/contact/?i=13dl5w4ysxb8g&utm_content=2o81e0j"><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.facebook.com/slvii.rnstii.37"><i class="bi bi-facebook"></i></a>
-                    <a href="https://wa.wizard.id/487435"><i class="bi bi-whatsapp"></i></a>
-                </h4>
-                <button class="btn"><a href="../web_flex/selvina.html">Detail</a></button>
-            </center>
-        </div>
+    </section>
+ 
+    <section id="experience" class="experience bg-white pb-4">
+        <div class="container">
+            <div class="row mb-4 pt-4">
+                <div class="col text-center" data-aos="fade-down" data-aos-duration="1000">
+                    <h2>My Project</h2>
+                </div>
+            </div>
+            <div class="row mb-4">
+                    <div class="col-md">
+                        <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                            <img class="card-img-top" src="img/Animasi 2D.JPG" alt="Card image cap">
+                            <div class="card-body">
+                                <h2>Animasi 2 Dimensi</h2>
+                            <p class="card-text">Project ini merupakan salah satu projek mata kuliah animasi 2 dimensi dengan menggunakan adobe animate.</p>
+                            <a href="#" class="btn btn-info">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="200">
+                            <img class="card-img-top" src="img/PCD.JPG" alt="Card image cap">
+                            <div class="card-body">
+                                <h2>Pengolahan Citra Digital</h2>
+                            <p class="card-text">Pada mata kuliah pcd ini saya menggunakan aplikasi anaconda dan spider saat membuat code dan gambar disamping hasil dari code tersebut.</p>
+                            <a href="#" class="btn btn-info">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="300">
+                            <img class="card-img-top" src="img/Webbsite.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h2>Fotografi</h2>
+                            <p class="card-text">Project ini merupakan hobi sekaligus pekerjaan saya menjadi freelancer (pekerjaan lepas).</p>
+                            <a href="#" class="btn btn-info">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        <!-- galeri -->
+            <div class="container" id="galeri">
+                <div class="row mb-4 pt-4">
+                    <div class="col text-center" data-aos="fade-down" data-aos-duration="1000">
+                        <h2>My Photo Gallery</h2>
+                    </div>
+                </div>
+                <!-- Gallery -->
+<div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img
+        src="img/Webbsite.png"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+  
+      <img
+      src="img/Webbsite.png"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape"
+      />
     </div>
-    <div class="footer"> <!--Footer-->
-        <h4>
-        <i class="bi bi-globe"></i><a class="bottom" href="https://pti.undiksha.ac.id">Pendidikan Teknik Informatika</a>|<a class="bottom" href="https://www.undiksha.ac.id">Undiksha</a>
-        </h4>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+      src="img/Webbsite.png"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Mountains in the Clouds"
+      />
+  
+      <img
+      src="img/Webbsite.png"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
     </div>
-    <script>   
-        AOS.init(); 
-    </script>
-</body>
-</html>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+      src="img/Webbsite.png"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Waves at Sea"
+      />
+  
+      <img
+      src="img/Webbsite.png"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Yosemite National Park"
+      />
+    </div>
+  </div>
+  <!-- Gallery -->
+            </div>
+        <!-- end galeri -->
+
+        <section id="contact" class="position-relative py-4 py-xl-5">
+            <div class="container position-relative" data-aos="fade-down" data-aos-duration="1500">
+                <div class="row mb-5 pt-4">
+                    <div class="col-md-8 col-xl-6 text-center mx-auto">
+                        <h2>Contact Me</h2>
+                        <p class="w-lg-50">Ingin tahu lebih banyak tentang saya? Anda dapat menghubungi saya dengan informasi ini atau mengirim saya email.</p>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-4">
+                        <div class="d-flex flex-column text-info justify-content-center align-items-start h-100">
+                            <div class="card" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="400">
+                                <div class="d-flex align-items-center p-3">
+                                    <div class="px-2">
+                                        <h6 class="mb-0">Whatsapp</h6>
+                                        <p><a href="#" class="text-info">+62 857-3992-7077</a></p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center p-3">
+                                    <div class="px-2">
+                                        <h6 class="mb-0">Instagram</h6>
+                                        <p><a href="https://www.instagram.com/agusta.picture/" class="text-info">agusta.picture</a></p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center p-3">
+                                    <div class="px-2">
+                                        <h6 class="mb-0">My Address</h6>
+                                        <p><a href="#" class="text-info">Manistutu, Melaya, Jembrana</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <hr></hr>
+    <footer class="bg-white text-dark">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <p>Copyright 2022 | <a href="#" class="text-dark">Agus Wiardita</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+    
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    </html>
